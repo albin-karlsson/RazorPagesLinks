@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesLinks.Pages.MyPages.Page4Model
+@{
+}
+
+@if(Model.Person != null)
+{
+    <h1>@Model.Person.Name!</h1>
+}
+else
+{
+    <h1>Could not find person with that name</h1>
+}

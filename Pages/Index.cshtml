@@ -1,0 +1,8 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<a asp-page="/MyPages/Page1" asp-route-message="Hello world">Link to Page 1</a>
+<a asp-page="/MyPages/Page4" asp-route-name="Foo">View person with name Foo</a>
